@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <title>JQuery esim</title>
+    <script src="jquery.js"></script>
+        <style type="text/css">
+        p{
+            padding: 15px;
+            background: blueviolet;
+        }
+        </style>
+
+        <script type="text/javascript">
+
+        $(document).ready(function(){
+
+        $(".Hide").click(function(){
+            $("p.Lightspeed").hide(1);
+            $("p.Fast").hide(100);
+            $("p.Normal").hide(500);
+            $("p.Slow").hide(1000);
+            $("p.None").hide();
+            
+        });        
+
+        $(".Show").click(function(){
+           
+            $("p.Lightspeed").show(1);
+            $("p.Fast").show(100);
+            $("p.Normal").show(500);
+            $("p.Slow").show(1000);
+            $("p.None").show();
+            
+        });
+    });
+        </script>
+
+    
+    </head>
+<body>
+    <button type="button" class="Hide">Hide</button>
+    <a>Out of sight, out of mind</a>
+    <button type="button" class="Show">Show</button>
+    
+    <p class="Lightspeed">Lightspeed</p>
+    <p class="Fast">Fast</p>
+    <p class="Normal">Normal</p>
+    <p class="Slow">Slow</p>
+    <p class="None">None</p>
+    
+</body>
+</html>

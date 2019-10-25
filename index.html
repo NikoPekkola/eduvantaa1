@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <title>JQuery esim</title>
+    <script src="jquery.js"></script>
+        <style type="text/css">
+        p{
+            padding: 15px;
+            background: blueviolet;
+        }
+        </style>
+
+        <script type="text/javascript">
+
+        alert ("Sup")
+        $(document).ready(function(){
+
+        $(".Hide").click(function(){
+            $("p").hide();
+            alert("Out of sight")
+        });        
+
+        $(".Show").click(function(){
+            $("p").show();
+            alert("Back in business")
+        });
+    });
+        </script>
+
+    
+    </head>
+<body>
+    <button type="button" class="Hide">Hide</button>
+    <button type="button" class="Show">Show</button>
+
+    <p>Tekstirivi unus</p>
+    <p>tekstirivi duo</p>
+    <p>tekstirivi tres</p>
+</body>
+</html>
