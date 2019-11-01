@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+#sisältö {
+  width: 50%;
+  padding: 5px 0;
+  text-align: left;
+  background-color: #ccffcc;
+  margin-top: 20px;
+}
+#arvostelu {
+  width: 50%;
+  padding: 5px 0;
+  text-align: left;
+  background-color: #ccffcc;
+  margin-top: 20px;
+}
+</style>
+</head>
+<body>
+<h1>OJSATTN17A</h1>
+
+
+<button onclick="sisältö()">kurssin sisältö viikottan 2019</button>
+
+<div id="sisältö">
+        <h2>Kurssin sisältö:</h2>
+        <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Node.js</li>
+        <li>JSON</li>
+        <li>JavaScript (jQuery)</li>
+        </ul>
+        <p>vk 43: HTML / CSS / jQuery<br>vk 44: jQuery<br>vk 45: JavaScript / Tietovarastot<br>vk 46: Node.js<br>vk 47: JSON<br>vk 48: Sulautetut järjestelmät<br>vk 49: Kurssiprojektin toteutus<br>vk 50: Kurssiprojektin toteutus<br>vk 51: Palautukset</p>
+</div>
+
+<button onclick="arvostelu()">arvostelu periaatteet</button>
+
+<div id="arvostelu">
+        <h2>Kurssin suoritus:</h2>
+        <ul>
+        <li>Päivätehtävät
+        <ul>
+        <li>Kurssin suorittamiseksi on palautettava vähintään puolet päivätehtävistä</li>
+        <li>40% arvosanasta</li>
+        </ul>
+        </li>
+        <li>Kurssiprojekti
+        <ul>
+        <li>Kurssin suorittamiseksi projektin on sisällettävä vähintään 3/5 sisältöelementtiä&nbsp;</li>
+        <li>60% arvosanasta</li>
+        </ul>
+        </li>
+        </ul>
+        <p>Tehtävät saat suoritettua käymällä ahkerasti tunneilla 🙂&nbsp;</p>
+</div>
+
+
+<script>
+function sisältö() {
+  var x = document.getElementById("sisältö");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+function arvostelu() {
+  var x = document.getElementById("arvostelu");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
+<h2> Tervetuloa kurssille!</h2>
+<h3> Täällä opit tekemään selainpohjaisia sovelluksia</h3>
+
+</body>
+</html>
