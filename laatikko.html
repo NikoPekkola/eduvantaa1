@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Esim</title>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<style type="text/css">
+    .box{
+        
+        width: 135px;
+        height: 135px;
+        background: #ff0000;
+        margin-top: 50px;
+        border-style: solid; 
+        border-color: #black;
+    }
+
+</style>
+<script type="text/javascript"> //ei toimi
+$(document).ready(function(){
+    $("button").click(function(){ 
+        $(".box").animate({
+            
+            width: "300px",
+            height: "300px",
+            marginLeft: "150px",
+            borderWidth: "10px",
+            opacity: 0.5
+            });       
+
+
+$(document).ready(function() {
+
+            $('kuva2').hover(function(){
+            $('.kuva2').hide();
+            });
+    });
+</script>
+</head>
+<body>
+    <button type="suuri">Suuri</button>
+    
+    <div class="box"> <img src="kuva2.png" alt="kuva2"> </div>
+    
+</body>
+</html>      
