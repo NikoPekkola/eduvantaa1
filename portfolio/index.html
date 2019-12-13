@@ -11,9 +11,10 @@
 </head>
 
 <body>
-    <button type="button" onclick="laatikkoFunktio(1)" class="muutosNappi">Muuta 1. laatikon sisältöä.</button>
-    <button type="button" onclick="laatikkoFunktio(2)" class="muutosNappi">Muuta 2. laatikon sisältöä.</button>
-    <button type="button" onclick="laatikkoFunktio(3)" class="muutosNappi">Muuta 3. laatikon sisältöä.</button>
+    
+    <button type="button" onclick="laatikkoFunktio(1)" class="muutosNappi">Nappi 1</button>
+    <button type="button" onclick="laatikkoFunktio(2)" class="muutosNappi">Nappi 2</button>
+    <button type="button" onclick="laatikkoFunktio(3)" class="muutosNappi">Toinen sivu</button>
     <button type="button" onclick="laatikkoFunktio(4)" class="muutosNappi">refresh.</button>
 
 
@@ -39,16 +40,18 @@
                 <li><a href="">kategoria 4</a></li>
             </ul>
         </div>
-        <div>
-            <form id="yhteystietolomake">
-                Nimi: <input type="text" name="Nimi" value=""><br>
-                Email: <input type="email" name="Email" value=""><br>
-                Puh: <input type="number" name="Puh" value=""><br><br>
-            </form>
-            <button onclick="yhteystietoFunktio()">Tulosta</button>
-        </div>
+
         <div id="yhteystiedotTuloste">
 
+        </div>
+        <div>
+            <img src="gtr.gif">
+        </div>
+        <div>
+            <h3> Joku käppyrä</h3>
+            <button onclick="diagrammiFunktio()">Tee diagrammi</button><br>
+            <canvas id="myCanvas" width="1700" height="500">
+            </canvas>
         </div>
     </div>
 

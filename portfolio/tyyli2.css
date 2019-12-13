@@ -1,5 +1,7 @@
 body{
-    background-color: #f4f4f4; 
+    background-image: url("lexus.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
     color:#555555;
     font-family: Arial, Helvetica, sans-serif; 
     font-size: 16px;
@@ -8,7 +10,7 @@ body{
     margin:0;
 }
 .muutosNappi{
-    background-color: #4CAF50; /* Green */
+    background-color: limegreen;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -17,21 +19,21 @@ body{
     font-size: 16px;
 }
 .muutosNappi:hover{
-    background-color: rgb(107, 99, 141);
+    background-color: rgb(255, 0, 10);
     text-decoration: underline;
 }
 a{
     text-decoration: none;
-    color: #000000;
+    color: #f10c0c;
 }
 a:hover{
-    color: red;
+    color: lime;
 }
 a:active{
     color: green;
 }
 a:visited{
-    color: black;
+    color: lime;
 }
 .alusta1{
     width:80%;
@@ -42,14 +44,13 @@ a:visited{
     margin-left: 10px;
 }
 .alusta2{
-    background-color: #333333;
-    color:#ffffff;
-    border-right: 5px red solid;
-    border-left: 5px red solid;
-    border-top: 5px red solid;
-    border-bottom: 5px red solid;
+    background-color:  none;
+    color: black;
+    border-right: 5px red;
+    border-left: 5px red;
+    border-bottom: 5px red;
     border-width: 3px;
-    border-top-style:dotted;
+    border-top-style:double ;
     padding: 20px;
     margin: 20px;
 }
@@ -96,6 +97,8 @@ a:visited{
 }
 .kategoriat li{
     padding-bottom: 6px;
-    border-bottom: dotted 1px #333333;
-    list-style-image: url('star.jpg');
+    border-bottom: dotted 1px blueviolet;
+    color: red;
+    text-decoration-color: violet;
 }
+
